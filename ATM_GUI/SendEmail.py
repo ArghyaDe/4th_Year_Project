@@ -11,8 +11,8 @@ mail=smtplib.SMTP('smtp.gmail.com',587)
 mail.starttls()
 
 Password=input()
-mail.login('atmstcet2020@gmail.com',Password)
+mail.login('abcd@gmail.com',Password)
 con=
 email=input()
-mail.sendmail('atmstcet2020@gmail.com',email,con)
+mail.sendmail('abcd@gmail.com',email,con)
 mail.quit()
