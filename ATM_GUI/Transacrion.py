@@ -12,8 +12,8 @@ from firebase_admin import firestore
 def sendMail(Password,email,con):
     mail=smtplib.SMTP('smtp.gmail.com',587)
     mail.starttls()
-    mail.login('atmstcet2020@gmail.com',Password)
-    mail.sendmail('atmstcet2020@gmail.com',email,con)
+    mail.login('abcd@gmail.com',Password)
+    mail.sendmail('abcd@gmail.com',email,con)
     mail.quit()
 
 cred = credentials.Certificate('F:\\4th_year_project\\ATM_GUI\\atm-security-stcet-firebase-adminsdk-6u1vm-a1113b8984.json')
