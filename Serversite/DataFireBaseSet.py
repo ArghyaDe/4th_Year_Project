@@ -80,14 +80,14 @@ mail=smtplib.SMTP('smtp.gmail.com',587)
 mail.starttls()
 
 try:
-    mail.login('atmstcet2020@gmail.com',"AtmSecurity4444")
+    mail.login('abcd@gmail.com',"password")
     print("Login Successful!!")
 except :
     print("Login Failed!!")
 
 con="Your Generic ID is "+doc_name+"\n Your SecretKey is "+srt
 try:
-    mail.sendmail('atmstcet2020@gmail.com',email,con)
+    mail.sendmail('abcd@gmail.com',email,con)
     print("Email Send Successfully")
 except :
     print("Email is failed to send")
