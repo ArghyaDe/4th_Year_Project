@@ -15,7 +15,7 @@ cred = credentials.Certificate('atm-security-stcet-firebase-certificate.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
-doc_name='GN-Arg3374420204151898'
+doc_name='GN-********'
 
 doc_ref=db.collection(u'Users').document(doc_name)
 x=doc_ref.get()
