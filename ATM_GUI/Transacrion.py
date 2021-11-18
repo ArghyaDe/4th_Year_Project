@@ -16,7 +16,7 @@ def sendMail(Password,email,con):
     mail.sendmail('abcd@gmail.com',email,con)
     mail.quit()
 
-cred = credentials.Certificate('F:\\4th_year_project\\ATM_GUI\\atm-security-stcet-firebase-adminsdk-6u1vm-a1113b8984.json')
+cred = credentials.Certificate('F:\\4th_year_project\\ATM_GUI\\atm-security-stcet-firebase-adminsdk-certificate.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
