@@ -16,7 +16,7 @@ from firebase_admin import firestore
 from random import randint
 
 #%%Initialization
-cred = credentials.Certificate('atm-security-stcet-firebase-adminsdk-6u1vm-a1113b8984.json')
+cred = credentials.Certificate('atm-security-stcet-firebase-adminsdk-certificate.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 bank=[]
